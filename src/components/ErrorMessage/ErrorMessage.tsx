@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ErrorMessage = () => {
+const ErrorMessage  = () => {
   return  <p>Try again later...</p>
   
 }

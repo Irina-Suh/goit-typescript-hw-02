@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const KeyAxios= "qgjCFzmnEOYDD9Ct7leaCe2aKD9huJm91FfIqy_9pS4"
-export const fetchHits = async (query,page,signal) =>{
+export const fetchHits = async (query:string,page:number,signal:any) =>{
   const perPage = 20;
     const response = await axios.get(
     
